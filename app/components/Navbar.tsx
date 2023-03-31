@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai"
 import { FaGithub, FaLinkedinIn } from "react-icons/fa"
 import { BsFillPersonLinesFill } from 'react-icons/bs'
+import amlogoImg  from '../../public/assets/amlogo.png'
 
 
 
@@ -36,7 +37,7 @@ const Navbar = () => {
 
       <div className='flex justify-between items-center w-full h-full pt-2'>
         <div className='p-10'>
-          <Image className='cursor-pointer' src="/../public/assets/amlogo.png"
+          <Image className='cursor-pointer' src={amlogoImg.src}
           alt="AM"
           width="100"
           height="100"
@@ -75,7 +76,7 @@ const Navbar = () => {
           : 'fixed left-[-150%] top-0 px-5 py-2 bg-stone-50 ease-in duration-500'}>
           <div>
             <div className='flex justify-between items-center'>
-              <Image className='cursor-pointer' src="/../public/amlogo.png"
+              <Image className='cursor-pointer' src={amlogoImg.src}
                 alt="AM Logo"
                 width="100"
                 height="100" />
