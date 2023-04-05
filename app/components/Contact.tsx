@@ -9,13 +9,13 @@ import Link from 'next/link'
 export const Contact = () => {
     return (
         <div id='contact' className='w-full lg:h-screen'>
-            <div className='max-w m-auto px-5 py-24 '>
-                <p className='uppercase tracking-widest text-2xl text-[#a0522d] font-semibold'>
-                    Contact
+            <div className='max-w m-auto px-5 py-16 '>
+                <p className='uppercase tracking-widest py-6 text-2xl text-[#a0522d] font-semibold'>
+                Get In Touch
                 </p>
-                <h1 className='pt-4 pb-8 text-[#00A693]'>
+                {/* <h1 className='pt-4 pb-8 text-[#00A693]'>
                     Get In Touch
-                </h1>
+                </h1> */}
 
                 <div className='grid  md:grid-cols-3 gap-8 '>
 
@@ -29,13 +29,13 @@ export const Contact = () => {
                                     <h1 className='pt-5 py-2'>
                                         <span className='text-[#a0522d]'>Asad </span><span className='text-[#00A693]'>Mehmood</span>
                                     </h1>
-                                    <p className='pb-2 text-sm text-gray-700'>
+                                    <p className='pb-2 text-lg text-gray-700'>
                                         Front-End developer
                                     </p>
-                                    <p className='py-2 text-sm text-gray-700'>
+                                    <p className='py-2 text-md text-gray-700'>
                                         I am available for freelance or full-time positions.
                                     </p>
-                                    <p className=' text-sm text-gray-700'>
+                                    <p className=' text-md text-gray-700'>
                                         Contact me and lets talk.
                                     </p>
 
@@ -67,9 +67,9 @@ export const Contact = () => {
 
                     {/* Right Side */}
                     <div className='w-full h-auto grid col-span-1 md:col-span-2 rounded-2xl shadow-xl shadow-gray-400 bg-stone-50'>
-                        <div className='p-5'>
+                        <div className='p-14'>
                             <form>
-                                <div className='grid lg:grid-cols-2 gap-4 w-full py-2'>
+                                <div className='grid lg:grid-cols-2 gap-8 w-full py-2'>
                                     <div className='flex flex-col'>
                                         <label className='uppercase text-sm py-2'>Name</label>
                                         <input className='p-2 border-2 border-gray-400 rounded-lg'
@@ -96,7 +96,7 @@ export const Contact = () => {
 
                                 <div className='flex flex-col py-2'>
                                     <label className='uppercase text-sm py-2'>Message</label>
-                                    <textarea className='p-3 border-2 border-gray-400 rounded-lg'
+                                    <textarea className='p-2 border-2 border-gray-400 rounded-lg'
                                         rows={8} />
                                 </div>
 

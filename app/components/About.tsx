@@ -4,15 +4,15 @@ import aboutImg from "../../public/assets/about.jpg"
 
 export const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p-2 flex item-center py-24 mt-10'>
+    <div id='about' className='w-full sm:h-screen p-2 flex item-center mt-24 pt-16'>
       <div className='max-w-full m-auto md:grid grid-cols-3 gap-8 px-5'>
         <div className='col-span-2'>
-          <p className='uppercase tracking-widest text-2xl text-[#a0522d] font-semibold'>
-            About
+          <p className='uppercase tracking-widest text-2xl text-[#a0522d] font-semibold py-4'>
+          Who I Am
           </p>
-          <h1 className='py-4 text-[#00A693]'>
+          {/* <h1 className='py-4 text-[#00A693]'>
             Who I Am
-          </h1>
+          </h1> */}
           <p className='py-2 text-gray-700'>
             I have spent the last 7 years in the mechanical industry working as a professional radiographer. I have always had a knack for technology and working with computers. In 2021 I started working with HTML & CSS to make some minor edits ona small business website that I as operating. What I thought was just a few small edits turned into a love for programming.
           </p>

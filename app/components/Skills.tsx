@@ -3,14 +3,14 @@ import Image from 'next/image';
 
 export const Skills = () => {
     return (
-        <div id='skills' className='w-full lg:h-screen p-5 py-24'>
+        <div id='skills' className='w-full lg:h-screen p-5 py-16'>
             <div className='max-w mx-auto flex flex-col justify-center h-full'>
-                <p className='uppercase  tracking-widest text-2xl text-[#a0522d] font-semibold'>
-                    Skills
+                <p className='uppercase py-6 tracking-widest text-2xl text-[#a0522d] font-semibold'>
+                What can I do
                 </p>
-                <h1 className='pt-4 pb-8 text-[#00A693]'>
+                {/* <h1 className='pt-4 pb-8 text-[#00A693]'>
                     What can I do
-                </h1>
+                </h1> */}
                 <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
                    
                     <div className='p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300'>

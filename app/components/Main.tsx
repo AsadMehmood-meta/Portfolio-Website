@@ -5,19 +5,19 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 export const Main = () => {
     return (
-        <div id='home' className='w-full h-screen text-center'>
-            <div className='mx-auto w-full mt-24 py-24 flex justify-center items-center'>
+        <div id='home' className='w-full text-center'>
+            <div className='mx-auto  w-full my-28 pt-16 flex justify-center items-center'>
                 <div>
-                    <p className='uppercase tracking-widest text-gray-700 text-sm'>
+                    <p className='uppercase tracking-widest text-gray-700 text-md'>
                         Lets build something together
                     </p>
-                    <h1 className='mt-4 mb-2'>
+                    <h1 className='mt-4 mb-2 px-2'>
                         Hi, I am <span className='text-[#a0522d]'>Asad </span><span className='text-[#00A693]'>Mehmood</span>
                     </h1>
                     <h1 className='mb-4'>
                         A Front-End Web Developer
                     </h1>
-                    <p className=' max-w-[60%] text-gray-700 mx-auto'>
+                    <p className=' lg:max-w-[60%] sm:max-w-[80%] text-gray-700 text-lg mx-auto px-5'>
                         I am a front-end web developer specializing in building (and
                         occasionally designing) exceptional digital experiences. Currently,
                         I am focused on building responsive front-end web applications while
