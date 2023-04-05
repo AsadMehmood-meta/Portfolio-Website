@@ -67,7 +67,7 @@ export const Contact = () => {
 
                     {/* Right Side */}
                     <div className='w-full h-auto grid col-span-1 md:col-span-2 rounded-2xl shadow-xl shadow-gray-400 bg-stone-50'>
-                        <div className='p-14'>
+                        <div className='px-14 py-4'>
                             <form>
                                 <div className='grid lg:grid-cols-2 gap-8 w-full py-2'>
                                     <div className='flex flex-col'>
